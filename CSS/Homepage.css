@@ -1,0 +1,110 @@
+*{
+    font-family:'Oswald', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    height: 84px;
+    max-width: 1280px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav ul li {
+    margin-left: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #394149;
+}
+nav ul li:last-child {
+    background: rgba(245, 138, 7, 0.1);
+    border-radius: 31px;
+    padding: 10px 30px;
+}
+header {
+    display: flex;
+    background: #DCEAF5;
+    height: 703px;
+    margin: auto;
+    justify-content: center;
+}
+.zuunheseg {
+    margin-top: 117px;
+    max-width: 576px;
+    background: #DCEAF5;
+    flex: 1;
+}
+.zuunheseg h1 {
+    font-size: 64px;
+    line-height: 72px;
+    flex: 1;
+}
+.zuunheseg p {
+    font-size: 18px;
+    flex: 1;
+    line-height: 30px;
+}
+.company {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 56px;
+    color: rgba(57, 65, 73, 0.5);
+}
+.baruunheseg {
+    max-width: 747px;
+    background: #DCEAF5;
+    display: flex;
+    flex: 1;
+}
+.zuunheseg ul {
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    list-style: none;
+}
+.zuunheseg ul li:first-child {
+    background: #F58A07;
+    padding: 18px 32px;
+    border-radius: 27px;
+    font-weight: bold;
+}
+.zuunheseg ul li:last-child {
+    margin-left: 72px;
+    font-weight: bold;
+}
+.logos {
+    display: flex;
+    flex: 1;
+    margin-top: 18px;
+    justify-content: space-between;
+}
+.ehniisection {
+    max-width: 1280px;
+    justify-content: center;
+    margin: auto;
+}
+.wehelp {
+    display: flex;
+    font-size: 48px;
+    line-height: 56px;
+    max-width: 735px;
+    padding-top: 96px;
+    padding-bottom: 27px;
+    color: #1D3444;
+}
+.sectionpara {
+    max-width: 735px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+    font-weight: 500;
+    padding-bottom: 64px;
+}
