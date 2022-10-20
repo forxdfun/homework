@@ -108,3 +108,230 @@ header {
     font-weight: 500;
     padding-bottom: 64px;
 }
+.postzuraguud {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 33px;
+}
+.Tailbar {
+    display: flex;
+    justify-content: space-between;
+}
+.business h1 {
+    color: #0D1317;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 106.5%;
+    padding-bottom: 17px;
+}
+.business p {
+    color: #5B5B5B;
+    line-height: 28px;
+    font-size: 16px;
+    max-width: 399px;
+    padding-bottom: 24px;
+}
+.business p:last-child {
+    color: #F58A07;
+    font-size: 16px;
+    font-weight: 500;
+}
+.Digitalization h1 {
+    color: #0D1317;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 106.5%;
+    padding-bottom: 17px;
+}
+.Digitalization p {
+    color: #1D3444;
+    line-height: 28px;
+    font-size: 16px;
+    max-width: 399px;
+    padding-bottom: 24px;
+}
+.Digitalization p:last-child {
+    color: #F58A07;
+    font-size: 16px;
+    font-weight: 500;
+}
+.Risk h1 {
+    color: #0D1317;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 106.5%;
+    padding-bottom: 17px;
+}
+.Risk p {
+    color: #5B5B5B;
+    line-height: 28px;
+    font-size: 16px;
+    max-width: 399px;
+    padding-bottom: 24px;
+}
+.Risk p:last-child {
+    color: #F58A07;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+.software {
+    justify-content: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background: #EDF7FF;
+    height: 665px;
+}
+.backhome {
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: auto;
+    flex-direction: column;
+}
+.solution {
+    justify-content: space-between;
+    display:flex;
+    max-width: 1280px;
+    width: 1280px;
+}
+.solution h1 {
+    flex: 1;
+    font-size: 36px;
+    line-height: 44px;
+    max-width: 620px;
+    max-height: 132px;
+}
+.solution p {
+    flex: 1;
+    width: 102px;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 620px;
+    flex-wrap: wrap;
+    text-align: justify;
+    max-height: 102px;
+}
+.threeboxes {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    height: 277px;
+    max-height: 278px;
+    max-width: 1280px;
+}
+.invoicing {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 277px;
+    max-width: 401px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 48px 327px 197px 41px;
+}
+.invoicing img {
+    margin-bottom: 32px;
+}
+.invoicing h1 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #0D1317;
+    margin-bottom: 16px;
+}
+.invoicing p {
+    width: 336px;
+    height: 84px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+    text-align: justify;
+}
+.woman {
+    width: 1280px;
+    height: 690px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 90px 0px;
+}
+.energy {
+    flex: 1;
+}
+.energy h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    width: 596px;
+    height: 157px;
+    margin-bottom: 32px;
+    margin-top: 50px;
+}
+.energy p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+    width: 510px;
+    height: 120px;
+    text-align: left;
+}
+.eharvantav {
+    display: flex;
+    justify-content: space-between;
+    width: 560px;
+    max-width: 560px;
+}
+.arvantav {
+    display: flex;
+    flex-direction: column;
+    width: 264px;
+    height: 192px;
+    max-width: 264px;
+    height: 192px;
+}
+.arvantav h1 {
+    color: #F58A07;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 48px;
+}
+.arvantav h2 {
+    font-weight: 600;
+    font-size: 24px;
+    width: 195px;
+    height: 26px;
+    color: #0D1317;
+    margin: 0%;
+    padding: 0%;
+}
+.arvantav p {
+    width: 264px;
+    height: 84px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+    text-align: left;
+    margin-top: 16px;
+}
+.ulbarshar {
+    width: 153px;
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.emegtei {
+    display: flex;
+    flex: 1;
+    height: 667px;
+    background-image: url(../IMGS/about-image.png);
+    background-size: cover;
+    border-radius: 20px;
+}
