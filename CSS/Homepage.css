@@ -335,3 +335,134 @@ header {
     background-size: cover;
     border-radius: 20px;
 }
+.bg {
+    box-sizing: border-box;
+    width: 1280px;
+    height: 682px;
+    background: #EDF7FF;
+    justify-content: left;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 20px;
+    padding: 48px;
+    position: relative;
+}
+.ribbon-main {
+    position: absolute;
+    top: -15;
+    left: 1116;
+}
+.bg-top {
+    box-sizing: border-box;
+    display: flex;  
+    justify-content: space-between;
+    width: 580px;
+    height: 120px;
+}
+.bg-top ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 580px;
+    height: 48px;    
+}
+.bg-top ul li:first-child {
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    border-radius: 31px;
+    padding: 8px 24px;
+}
+.lidund {
+    background: #EDF7FF;
+    display: flex;
+    align-items: center;
+    border-radius: 31px;
+    padding: 8px 24px;
+    border: 1px solid #A8BCCC;
+}
+.bg-top ul li:last-child {
+    background: #EDF7FF;
+    display: flex;
+    align-items: center;
+    border-radius: 31px;
+    padding: 8px 24px;
+    border: 1px solid #A8BCCC;
+}
+.maincontent {
+    display: flex;
+    justify-content: space-between;
+}
+.helpclientzuun h1 {
+    width: 572px;
+    height: 168px;
+    line-height: 56px;
+    font-size: 48px;
+    color: #0D1317;
+    font-weight: 600;
+}
+.helpclientzuun p {
+    margin-top: 25px;
+    width: 510px;
+    line-height: 30px;
+    color: #5B5B5B;
+    font-weight: 500;
+    text-align: left;
+}
+.helpclientzuun p:last-child {
+    width: 153px;
+    height: 17px;
+    color: #F58A07;
+    margin-top: 40px;
+}
+.helpclientbaruun {
+    width: 472px;
+    height: 466px;
+    border-radius: 20px;
+    background-image: url(../IMGS/Image.png);
+    mix-blend-mode: multiply;
+}
+.helpclientorange {
+mix-blend-mode: multiply;
+}
+.CTA {
+    margin-top: 128px;
+    width: 100%;
+    height: 518px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 128px;
+}
+.coffee {
+    flex: 1;
+    background-image: url(../IMGS/coffebarisanemegtei.png);
+    background-size: cover;
+}
+.orangedevsger {
+    background: #F58A07;
+    flex: 1;
+}
+.orangedevsger h1 {
+    margin-top: 128px;
+    margin-left: 128px;
+    margin-bottom: 40px;
+    width: 523px;
+    color: white;
+    line-height: 56px;
+    font-size: 48px;
+}
+.orangedevsger p {
+    margin-left: 128px;
+    width: 216px;
+    height: 54px;
+    background-color: white;
+    color: #F58A07;
+    border-radius: 31px;
+    padding: 19px 32px 18px 32px;
+}
+.video {
+    height: 501px;
+    background-color: #394149;
+    width: 1280px;
+    margin: auto;
+}
